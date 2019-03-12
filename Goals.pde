@@ -1,3 +1,4 @@
+/* Stores the locations of all goals. */
 class Goals{
   ArrayList<PVector> locations = new ArrayList<PVector>();
   int currentGoal = 0;

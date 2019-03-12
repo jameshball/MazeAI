@@ -1,3 +1,4 @@
+/* This class can be ignored if you are looking at how the genetic algorithm works. */
 class Graph {
   int posx;
   int posy;

@@ -1,4 +1,7 @@
+/* Stores all details of an obstacle in the maze. */
 class Obstacle{
+  /* 2D vectors determining the x, y position of the obstacle
+     and the width/height of the obstacle. */
   PVector pos;
   PVector size;
   
@@ -7,11 +10,7 @@ class Obstacle{
     size = new PVector(sizex, sizey);
   }
   
-  Obstacle() {
-    pos = new PVector(-100, -100);
-    size = new PVector(0, 0);
-  }
-  
+  /* Draws the obstacle to screen using pos and size. */
   void show() {
     fill(0, 0, 255);
     stroke(0, 0, 255);

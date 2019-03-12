@@ -1,3 +1,4 @@
+/* Graph datapoint class. Can be ignored if learning the genetic algorithm. */
 class Datapoint {
   float data;
   boolean isInteger;
